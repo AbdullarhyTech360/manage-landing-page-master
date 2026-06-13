@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "postcss ./src/style.css -o ./dist/style.css --watch",
+    "build": "postcss ./src/style.css -o ./dist/style.css"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.1"
+  },
+  "devDependencies": {
+    "postcss-cli": "^11.0.1"
+  }
+}
